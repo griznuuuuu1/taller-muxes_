@@ -1,0 +1,29 @@
+|general_DUT
+A => general_gate_design:gate_design.A
+A => mux_general_design:mux_design.A
+B => general_gate_design:gate_design.B
+B => mux_general_design:mux_design.B
+C => general_gate_design:gate_design.C
+C => mux_general_design:mux_design.C
+D => general_gate_design:gate_design.D
+D => mux_general_design:mux_design.D
+Y[0] << general_gate_design:gate_design.Y
+Y[1] << mux_general_design:mux_design.Y
+
+
+|general_DUT|general_gate_design:gate_design
+A => XOR0.IN0
+B => XOR0.IN1
+C => XOR1.IN0
+D => XOR1.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|general_DUT|mux_general_design:mux_design
+A => Mux2.IN4
+B => Mux2.IN5
+C => Mux3.IN4
+D => Mux3.IN5
+Y <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+
+

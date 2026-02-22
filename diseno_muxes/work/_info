@@ -1,0 +1,178 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/griznu1_/Nextcloud/ERR/UNI/5semestre/digitales/talleres/taller_muxes/diseño_muxes
+Egeneral_dut
+Z1 w1771791011
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 27
+Z4 d/home/griznu1_/Nextcloud/ERR/UNI/5semestre/digitales/talleres/taller_muxes/diseno_muxes
+Z5 8/home/griznu1_/Nextcloud/ERR/UNI/5semestre/digitales/talleres/taller_muxes/diseno_muxes/general_DUT.vhd
+Z6 F/home/griznu1_/Nextcloud/ERR/UNI/5semestre/digitales/talleres/taller_muxes/diseno_muxes/general_DUT.vhd
+l0
+L4 1
+VRDP5Wf``8O5mAQ1^OeQAU2
+!s100 _<FDo27d]1=V8OVDWV=4a2
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1771793384
+!i10b 1
+Z9 !s108 1771793384.000000
+Z10 !s90 -reportprogress|300|-work|work|/home/griznu1_/Nextcloud/ERR/UNI/5semestre/digitales/talleres/taller_muxes/diseno_muxes/general_DUT.vhd|
+Z11 !s107 /home/griznu1_/Nextcloud/ERR/UNI/5semestre/digitales/talleres/taller_muxes/diseno_muxes/general_DUT.vhd|
+!i113 1
+Z12 o-work work
+Z13 tExplicit 1 CvgOpt 0
+Acall
+Z14 DEx4 work 18 mux_general_design 0 22 4BKGA40Po6R4Q2X`De8Q[2
+Z15 DEx4 work 19 general_gate_design 0 22 BChWl4Z`U]zJFIBK9zbQm1
+R2
+R3
+Z16 DEx4 work 11 general_dut 0 22 RDP5Wf``8O5mAQ1^OeQAU2
+!i122 27
+l16
+L15 24
+VF<aQEbA;W^BdcdMTnBKM=3
+!s100 ]h2dZZm@XGlS`OzQL8hT]0
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Egeneral_dut_tb
+Z17 w1771792820
+R2
+R3
+!i122 29
+R4
+Z18 8/home/griznu1_/Nextcloud/ERR/UNI/5semestre/digitales/talleres/taller_muxes/diseno_muxes/general_DUT_tb.vhd
+Z19 F/home/griznu1_/Nextcloud/ERR/UNI/5semestre/digitales/talleres/taller_muxes/diseno_muxes/general_DUT_tb.vhd
+l0
+L4 1
+V8CA8QdggclOI`555iWHJ>2
+!s100 e6ZSYm>eChMd?_jToFA;Y3
+R7
+32
+R8
+!i10b 1
+R9
+Z20 !s90 -reportprogress|300|-work|work|/home/griznu1_/Nextcloud/ERR/UNI/5semestre/digitales/talleres/taller_muxes/diseno_muxes/general_DUT_tb.vhd|
+Z21 !s107 /home/griznu1_/Nextcloud/ERR/UNI/5semestre/digitales/talleres/taller_muxes/diseno_muxes/general_DUT_tb.vhd|
+!i113 1
+R12
+R13
+Atestbench
+R16
+R2
+R3
+DEx4 work 14 general_dut_tb 0 22 8CA8QdggclOI`555iWHJ>2
+!i122 29
+l12
+L7 42
+VC=WRm8d3;6I?:@gkQ5KdT2
+!s100 PVAGdS^GIeWAP=78zEA?B2
+R7
+32
+R8
+!i10b 1
+R9
+R20
+R21
+!i113 1
+R12
+R13
+Egeneral_gate_design
+Z22 w1771791059
+R2
+R3
+!i122 28
+R4
+Z23 8/home/griznu1_/Nextcloud/ERR/UNI/5semestre/digitales/talleres/taller_muxes/diseno_muxes/general_gate_design.vhd
+Z24 F/home/griznu1_/Nextcloud/ERR/UNI/5semestre/digitales/talleres/taller_muxes/diseno_muxes/general_gate_design.vhd
+l0
+L4 1
+VBChWl4Z`U]zJFIBK9zbQm1
+!s100 HTJmSEeaV6F^^hLW8g3KZ3
+R7
+32
+R8
+!i10b 1
+R9
+Z25 !s90 -reportprogress|300|-work|work|/home/griznu1_/Nextcloud/ERR/UNI/5semestre/digitales/talleres/taller_muxes/diseno_muxes/general_gate_design.vhd|
+Z26 !s107 /home/griznu1_/Nextcloud/ERR/UNI/5semestre/digitales/talleres/taller_muxes/diseno_muxes/general_gate_design.vhd|
+!i113 1
+R12
+R13
+Agatelevel
+R2
+R3
+R15
+!i122 28
+l18
+L15 10
+VY2>h1Idl^2l43QkAl^jKR1
+!s100 WSzS]NHgzNgm1TPoYMjaP0
+R7
+32
+R8
+!i10b 1
+R9
+R25
+R26
+!i113 1
+R12
+R13
+Emux_general_design
+Z27 w1771790015
+R2
+R3
+!i122 30
+R4
+Z28 8/home/griznu1_/Nextcloud/ERR/UNI/5semestre/digitales/talleres/taller_muxes/diseno_muxes/mux_general_design.vhd
+Z29 F/home/griznu1_/Nextcloud/ERR/UNI/5semestre/digitales/talleres/taller_muxes/diseno_muxes/mux_general_design.vhd
+l0
+L4 1
+V4BKGA40Po6R4Q2X`De8Q[2
+!s100 NN2_fY^jQZhGRhHki5zY<2
+R7
+32
+Z30 !s110 1771793385
+!i10b 1
+R9
+Z31 !s90 -reportprogress|300|-work|work|/home/griznu1_/Nextcloud/ERR/UNI/5semestre/digitales/talleres/taller_muxes/diseno_muxes/mux_general_design.vhd|
+!s107 /home/griznu1_/Nextcloud/ERR/UNI/5semestre/digitales/talleres/taller_muxes/diseno_muxes/mux_general_design.vhd|
+!i113 1
+R12
+R13
+Afunctional
+R2
+R3
+R14
+!i122 30
+l21
+Z32 L15 28
+Z33 VjIMdAA_Y2BR[KKG_JP4Ba2
+Z34 !s100 MS9:4=cfbkEUXSnU[]MTc0
+R7
+32
+R30
+!i10b 1
+R9
+R31
+Z35 !s107 /home/griznu1_/Nextcloud/ERR/UNI/5semestre/digitales/talleres/taller_muxes/diseno_muxes/mux_general_design.vhd|
+!i113 1
+R12
+R13
