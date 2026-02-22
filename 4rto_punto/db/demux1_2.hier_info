@@ -1,0 +1,29 @@
+|demux1_2
+A => demux1_2_gates:demux_gatelevel.A
+A => demux1_2_functional:demux_function.A
+SEL => demux1_2_gates:demux_gatelevel.SEL
+SEL => demux1_2_functional:demux_function.SEL
+Y0[0] <= demux1_2_gates:demux_gatelevel.Y0
+Y0[1] <= demux1_2_functional:demux_function.Y0
+Y1[0] <= demux1_2_gates:demux_gatelevel.Y1
+Y1[1] <= demux1_2_functional:demux_function.Y1
+
+
+|demux1_2|demux1_2_gates:demux_gatelevel
+A => Y0.IN0
+A => Y1.IN0
+SEL => Y0.IN1
+SEL => Y1.IN1
+Y0 <= Y0.DB_MAX_OUTPUT_PORT_TYPE
+Y1 <= Y1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|demux1_2|demux1_2_functional:demux_function
+A => Y0.DATAB
+A => Y1.DATAB
+SEL => Y1.OUTPUTSELECT
+SEL => Y0.OUTPUTSELECT
+Y0 <= Y0.DB_MAX_OUTPUT_PORT_TYPE
+Y1 <= Y1.DB_MAX_OUTPUT_PORT_TYPE
+
+
