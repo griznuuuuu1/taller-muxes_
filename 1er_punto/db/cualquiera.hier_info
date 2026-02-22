@@ -1,0 +1,48 @@
+|muxes
+A => mux2_1_gates:mux_gates.A
+A => mux2_1_with_select:mux_withselect.A
+A => mux2_1_when_else:mux_whenelse.A
+A => mux2_1_process:mux_process.A
+B => mux2_1_gates:mux_gates.B
+B => mux2_1_with_select:mux_withselect.B
+B => mux2_1_when_else:mux_whenelse.B
+B => mux2_1_process:mux_process.B
+SEL => mux2_1_gates:mux_gates.SEL
+SEL => mux2_1_with_select:mux_withselect.SEL
+SEL => mux2_1_when_else:mux_whenelse.SEL
+SEL => mux2_1_process:mux_process.SEL
+Y0 <= mux2_1_gates:mux_gates.Y
+Y1 <= mux2_1_with_select:mux_withselect.Y
+Y2 <= mux2_1_when_else:mux_whenelse.Y
+Y3 <= mux2_1_process:mux_process.Y
+
+
+|muxes|mux2_1_gates:mux_gates
+A => p0.IN0
+B => p1.IN0
+SEL => p1.IN1
+SEL => p0.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|muxes|mux2_1_with_select:mux_withselect
+A => Y.DATAB
+B => Y.DATAA
+SEL => Y.OUTPUTSELECT
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|muxes|mux2_1_when_else:mux_whenelse
+A => Y.DATAB
+B => Y.DATAA
+SEL => Y.OUTPUTSELECT
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|muxes|mux2_1_process:mux_process
+A => Y.DATAB
+B => Y.DATAA
+SEL => Y.OUTPUTSELECT
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
